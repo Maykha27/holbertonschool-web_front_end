@@ -123,5 +123,10 @@ h1, h2, h3, h4, h5, h6 {
 	--section-body-padding: 0 0 3rem;
 	--section-footer-padding: 3rem 0 0;
 	--section-footer-align: center;
-	--footer-padding: 5rem 0 1rem;
+	--footer-padding: 5rem 0 1rem
+}
+
+/* pad all 4 sides of the selected element with footer-padding */
+.footer {
+	padding: var(--footer-padding);
 }
