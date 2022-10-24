@@ -45,11 +45,12 @@ a:active {
 	color: var(--color-primary);
 }
 
-.section-header {
-	text-align: var(--section-header-align);
+/* set the padding on all 4 sides to section-padding */
+.section {
+	padding: var(--section-padding);
 }
 
-.section-paddin {
+.section-header {
 	text-align: var(--section-header-align);
 	padding: var(--section-header-padding);
 }
