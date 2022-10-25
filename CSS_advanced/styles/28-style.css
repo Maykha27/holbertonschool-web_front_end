@@ -25,7 +25,7 @@ body {
 }
 
 .header-logo{
-	--position: var(--header-logo-position);
+	position: var(--header-logo-position);
 }
 
 .header-logo a {
