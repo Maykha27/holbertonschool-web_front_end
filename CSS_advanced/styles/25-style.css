@@ -137,6 +137,7 @@ ul.row {
 	--text-color: var(--color-white);
 	--section-title-color: var(--color-white);
 	background: var(--color-black);
+	--button-color: var(color-white);
 }
 
 /* wide and evenly distribute the margins
@@ -186,10 +187,6 @@ right and left are 1rem */
 
 .social-link {
 	display: block;
-}
-
-.class selector{
-
 }
 
 /* Style the social-link class that also selects the svg children */
@@ -256,12 +253,12 @@ right and left are 1rem */
 	--button-display: inline-block;
 	--button-padding: 1.5rem 3rem;
 	--button-border: 0.2rem solid var(--color-primary);
-	--button-color: var(color-black);
+	--button-color: var(--color-black);
 	--button-text-decoration: none;
-	--button-font-size: var(font-size-large);
-	--button-hover-color: var(color-white);
+	--button-font-size: var(--font-size-large);
+	--button-hover-color: var(--color-white);
 	--button-hover-text-decoration: none;
-	--button-hover-background: var(color-primary);
+	--button-hover-background: var(--color-primary);
 }
 
 .footer-copyright {
