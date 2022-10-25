@@ -105,6 +105,19 @@ and set the horizontal alignment with section-footer-align */
 	margin: var(--section-tagline-margin);
 }
 
+.section-hero{
+	background: 90rem auto;
+ }
+
+.secteur-title .section-hero {
+	margin-bottom: 5rem;
+ }
+
+.section-inner{
+	--section-hero: var(--section-hero);
+	padding: 10rem 40rem 2rem 0
+}
+
 ul.row {
 	margin: 0;
 	padding: 0;
@@ -235,24 +248,7 @@ right and left are 1rem */
 	padding-top: 1rem;
 	color: var(--color-primary);
 }
-.section-hero{
-	background: 2-value syntax;
-	Width: 90rem;
-	height: var(--automatic);
- }
 
-.secteur-title{
-	--section-hero: var(--section-hero);
-	margin: 5rem;
- }
-
-.section-inner{
-	--section-hero: var(--section-hero);
-	padding: 10rem;
-	right: 40rem;
-	bottom: 2rem;
-	left: 0;
-}
 :root {
 	--color-primary: #d73953;
 	--color-black: #090909;
